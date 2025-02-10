@@ -1,9 +1,9 @@
 # Healthy Heads
 
 ## User Stories:
-<br></br>
-### Must-Haves:
 
+### Must-Haves:
+<br></br>
 **User Story:**
 As somebody looking to gain an understanding of a variety of mental health issues I want common mental health issues to be summarized in one place so that I can efficiently gain an overview of the common issues.
 
