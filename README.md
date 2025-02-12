@@ -11,8 +11,8 @@ Microsoft CoPilot was used to assist in the initial generation of the user stori
 ![user-stories-kanban-board](https://github.com/user-attachments/assets/09d1586a-6ca3-4974-81d6-bb5c6081318c)
 
 
-### Must-Haves:
-<br></br>
+## Must-Haves:
+
 **User Story:**
 As somebody looking to gain an understanding of a variety of mental health issues I want common mental health issues to be summarized in one place so that I can efficiently gain an overview of the common issues.
 
@@ -149,8 +149,8 @@ As a first-time user I want to feel comforted as soon as I come to the page so t
   
 <br></br>
 
-### Should-Haves:
-<br></br>
+## Should-Haves:
+
 **User Story:**
 As someone looking for detailed support I want there to be a way to access deeper information so that I can get the help I need.
 
@@ -176,8 +176,7 @@ As someone uncomfortable interacting with other people I want there to be a sect
 
 <br></br>
 
-### Could-Haves:
-<br></br>
+## Could-Haves:
 
 **User Story:**
 As a user seeking community support, I want to find information on support groups and forums so that I can connect with others who are going through similar circumstances and understand my struggles.
