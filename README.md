@@ -1,131 +1,223 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Healthy Heads
 
-Welcome USER_NAME,
+## User Stories:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Microsoft CoPilot was used to assist in the initial generation of the user stories, which were then refined to fully fit the project. A couple of the generated stories were irrelevant to the website brief regarding the user's goals and site owner's goals so these were removed and new user stories were created in their place without the use of CoPilot. The user stories were then sorted into individual issues on a Kanban board using MOSCOW prioritisation. 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![user-stories-co-pilot-initial-prompt](https://github.com/user-attachments/assets/afe8a588-880d-4c66-8512-3fe6668ca333)
+![user-stories-co-pilot-output-1](https://github.com/user-attachments/assets/f1ef6cda-6681-4c7e-81a7-6fa5b36efe8f)
+![user-stories-co-pilot-output-2](https://github.com/user-attachments/assets/1016c911-a4f4-42fb-88e7-aeb53c58d450)
+![user-stories-acceptance-criteria-co-pilot](https://github.com/user-attachments/assets/04b0fd78-7814-41bb-a9ba-b9deaea83e10)
+![user-stories-kanban-board](https://github.com/user-attachments/assets/09d1586a-6ca3-4974-81d6-bb5c6081318c)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Must-Haves:
 
-`python3 -m http.server`
+**User Story:**
+As somebody looking to gain an understanding of a variety of mental health issues I want common mental health issues to be summarized in one place so that I can efficiently gain an overview of the common issues.
 
-A blue button should appear to click: _Make Public_,
+**Acceptance Criteria:**
+- There is a clear section covering common mental health issues with easy to understand overviews of each issue, including the recommended support.
+- This section is easy to find on the page and linked in the navbar.
 
-Another blue button should appear to click: _Open Browser_.
+**Tasks:**
+- Add a section in the HTML page structure called "Common issues".
+- Add "Common issues" into the navbar and check the on-page link works as intended.
+- Insert the Bootstrap base template for information cards which will be adapted for each issue.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+<br></br>
+**User Story:**
+As a visitor with limited time, I want to be able to quickly find key information through an organized layout so that I can get the help I need efficiently.
 
-A blue button should appear to click: _Make Public_,
+**Acceptance Criteria:**
+- Website layout is clear and intuitive.
+- Key information is easily accessible from the homepage.
+- Sections are well-labeled and organized logically.
 
-Another blue button should appear to click: _Open Browser_.
+**Tasks:**
+- Ensure the Page layout is simple with a clear structure.
+- Ensure Navbar is fully responsive, easy to use and all links work as intended.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br></br>
+**User Story:**
+As a visitor who is new to mental health information, I want to access clear and beginner-friendly content so that I can understand mental health basics without feeling overwhelmed.
 
-To log into the Heroku toolbelt CLI:
+**Acceptance Criteria:**
+- Content is written in plain language.
+- Jargon and complex terms are explained or avoided.
+- Information is organized into clear, concise sections.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Tasks:**
+- Ensure HTML structure is simple, efficient and intuitive.
+- Add headings to content so it is clearly structured.
+- Adjust any text from third party sites where required to make sure it is easy to understand.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+<br></br>
+**User Story:**
+As a person feeling depressed, I want to learn about typical symptoms and treatments so that I can understand better if I many have depression as well as how to deal with it.
 
-### Connecting your Mongo database
+**Acceptance Criteria:**
+- The information card lists common symptoms of depression.
+- An overview of treatment options (therapy, medication, lifestyle changes) is provided in the information card.
+- There are links to professional help and support groups in the resources section.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+**Tasks:**
+- Add an information card for depression.
+- Add symptoms and treatments to the card.
+- Add links to the resources section for further support with depression.
 
-------
+<br></br>
+**User Story:**
+As someone who experiences issues with stress, I want to find tips and strategies for managing stress so that I can improve my well-being.
 
-## Release History
+**Acceptance Criteria:**
+- Stress management tips are easy to find.
+- Information includes actionable strategies and techniques.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Tasks:**
+- Add an information card specifically for stress.
+- Add a multiple tips to the card.
 
-**June 18, 2024,** Add Mongo back into template
+<br></br>
+**User Story:**
+As a parent, I want to learn about signs of mental health issues in children so that I can support my child's mental health effectively.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+**Acceptance Criteria:**
+- Clear list of common signs and symptoms in children.
+- Guidance on what to do if a child shows these signs.
+- Links to external resources for further support.
 
-**May 28 2024:** Fix Mongo and Links installs
+**Tasks:**
+- Add an information card dedicated to recognizing symptoms in others.
+- Add links in the resources section for parents looking for further guidance.
 
-**April 26 2024:** Update node version to 16
+<br></br>
+**User Story:**
+As a student, I want to discover ways to cope with academic pressure so that I can maintain my mental health while achieving my academic goals.
 
-**September 20 2023:** Update Python version to 3.9.17.
+**Acceptance Criteria:**
+- Practical tips on managing academic stress, referencing a look at the stress section of the site.
+- Techniques for balancing study and personal life.
+- Include the usual people a student should seek out in their own institution for support.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+**Tasks:**
+- Add an information card specifically aimed at students and academic stress.
+- Include tips and actionable steps for managing academic stress.
+- Describe the usual people a student should seek support from in their institution.
+- Add a link in the resource links section for further support on this topic.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<br></br>
+**User Story:**
+As a person living with anxiety, I want to access coping mechanisms and treatment options so that I can manage my anxiety better.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Acceptance Criteria:**
+- List of coping strategies for anxiety.
+- Overview of treatment options (therapy, medication, etc.).
+- Contact information for mental health professionals in the resources section.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+**Tasks:**
+- Add an information card for anxiety.
+- Provide simple tips and strategies for managing anxiety.
+- Add a link in the resources section for further support with anxiety.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<br></br>
+**User Story:**
+As a working professional, I want to find resources on work-life balance so that I can reduce job-related stress and avoid burnout.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**Acceptance Criteria:**
+- Tips for setting boundaries between work and personal life.
+- Information on recognizing signs of burnout.
+- 
+**Tasks:**
+- Add an information card targeted at work-life balance and burnout.
+- Add tips for managing work-life balance, work-related stress and burnout.
+- Add a link in the resources section to an external site which provides more information.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<br></br>
+**User Story:**
+As a first-time user I want to feel comforted as soon as I come to the page so that I feel assured I am in the right place to find support.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Acceptance Criteria:**
+- The website has an impactful hero section with a calming image and encouraging message about mental health.
+- The website uses a calming color scheme.
+- The website has calming, comforting images to make the user feel at ease.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Tasks:**
+- Decide on and implement a calming color scheme for the website.
+- Add a calming hero image to the page with a welcoming, encouraging message.
+- Ensure all images on the site fit the same style and energy as the leading hero image.
+  
+<br></br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Should-Haves:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+**User Story:**
+As someone looking for detailed support I want there to be a way to access deeper information so that I can get the help I need.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Acceptance Criteria:**
+- There is a full section linking to further resources on other websites so that users can access more detailed resources if they wish.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Tasks:**
+- Add a section in the HTML page structure called "Resources" which contains links to further resources on other websites.
+- Link this section in the navbar.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<br></br>
+**User Story:**
+As someone uncomfortable interacting with other people I want there to be a section with positive affirmations so that I can self-soothe and manage my own mental state without needing to go to someone else.
 
-------
+**Acceptance Criteria:**
+- A section on the website displays a variety of positive, uplifting affirmations.
+- The resources section also provides links to external affirmation websites.
 
-## FAQ about the uptime script
+**Tasks:**
+- Add a section in the HTML page structure dedicated to affirmations.
+- Use Bootstrap to create an automatic carousel of positive affirmations.
+- Add a variety of positive affirmations, referencing the site/person they come from within the carousel slides.
 
-**Why have you added this script?**
+<br></br>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Could-Haves:
 
-**How will this affect me?**
+**User Story:**
+As a user seeking community support, I want to find information on support groups and forums so that I can connect with others who are going through similar circumstances and understand my struggles.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+**Acceptance Criteria:**
+- List of online and local support groups.
+- Information on how to join mental health forums.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Tasks:**
+- Add links in the resources section to community support sites.
+- Add links in the resources section to online support forums/communities.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<br></br>
+**User Story:**
+As someone looking for professional help, I want to find information on how to seek therapy or counselling so that I can get the support I need.
 
-**So….?**
+**Acceptance Criteria:**
+- Links in the resources section for finding counselling/therapy are clear and easy to find.
+- There is a "get help" item in the navbar which links to this area of the page.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+**Tasks:**
+- Add multiple links to the resources section for finding support.
+- Add a sub-header to these links to make it clear and obvious.
+- Add a "Get Help" item to the navbar linked to the sub-header section.
 
-**Can I opt out?**
+<br></br>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Wireframe Design
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Balsamiq was used to create the wireframe design for the website using the mobile-first principle. The focus with the design was to combine the user's goals with the site owner's goals and create a design that is simple, calming, and efficient for finding useful information.
+<br></br>
+**Mobile Wireframe:**
+<br></br>
+![mobile-wireframe](https://github.com/user-attachments/assets/8b4f5f35-d920-4168-8077-37e673bab973)
+<br></br>
+**Tablet/Medium Wireframe:**
+<br></br>
+![tablet-wireframe](https://github.com/user-attachments/assets/62309e9d-8a30-4b04-a860-72321dc77103)
+<br></br>
+**Desktop/Large Wireframe:**
+<br></br>
+![desktop-wireframe](https://github.com/user-attachments/assets/6aa58b7b-d52b-468d-85a2-92f1eea28172)
+<br></br>
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
