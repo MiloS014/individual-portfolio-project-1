@@ -203,3 +203,15 @@ As someone looking for professional help, I want to find information on how to s
 - Add a "Get Help" item to the navbar linked to the sub-header section.
 
 <br></br>
+
+## Wireframe Design
+
+Balsamiq was used to create the wireframe design for the website using the mobile-first principle. The focus with the design was to combine the user's goals with the site owner's goals and create a design that is simple, calming, and efficient for finding useful information. 
+**Mobile Wireframe:**
+![mobile-wireframe](https://github.com/user-attachments/assets/8b4f5f35-d920-4168-8077-37e673bab973)
+**Tablet/Medium Wireframe**
+![tablet-wireframe](https://github.com/user-attachments/assets/62309e9d-8a30-4b04-a860-72321dc77103)
+**Desktop/Large Wireframe**
+![desktop-wireframe](https://github.com/user-attachments/assets/6aa58b7b-d52b-468d-85a2-92f1eea28172)
+
+
