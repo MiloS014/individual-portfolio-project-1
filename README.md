@@ -137,36 +137,61 @@ As a first-time user I want to feel comforted as soon as I come to the page so t
 - Decide on and implement a calming color scheme for the website.
 - Add a calming hero image to the page with a welcoming, encouraging message.
 - Ensure all images on the site fit the same style and energy as the leading hero image.
-- 
+  
 <br></br>
 
 ### Should-Haves:
 <br></br>
 **User Story:**
+As someone looking for detailed support I want there to be a way to access deeper information so that I can get the help I need.
 
 **Acceptance Criteria:**
+- There is a full section linking to further resources on other websites so that users can access more detailed resources if they wish.
 
 **Tasks:**
+- Add a section in the HTML page structure called "Resources" which contains links to further resources on other websites.
+- Link this section in the navbar.
 
 <br></br>
 **User Story:**
+As someone uncomfortable interacting with other people I want there to be a section with positive affirmations so that I can self-soothe and manage my own mental state without needing to go to someone else.
 
 **Acceptance Criteria:**
+- A section on the website displays a variety of positive, uplifting affirmations.
+- The resources section also provides links to external affirmation websites.
 
 **Tasks:**
+- Add a section in the HTML page structure dedicated to affirmations.
+- Use Bootstrap to create an automatic carousel of positive affirmations.
+- Add a variety of positive affirmations, referencing the site/person they come from within the carousel slides.
+
+<br></br>
+
+### Could-Haves:
+<br></br>
+
+**User Story:**
+As a user seeking community support, I want to find information on support groups and forums so that I can connect with others who are going through similar circumstances and understand my struggles.
+
+**Acceptance Criteria:**
+- List of online and local support groups.
+- Information on how to join mental health forums.
+
+**Tasks:**
+- Add links in the resources section to community support sites.
+- Add links in the resources section to online support forums/communities.
 
 <br></br>
 **User Story:**
+As someone looking for professional help, I want to find information on how to seek therapy or counselling so that I can get the support I need.
 
 **Acceptance Criteria:**
+- Links in the resources section for finding counselling/therapy are clear and easy to find.
+- There is a "get help" item in the navbar which links to this area of the page.
 
 **Tasks:**
-
-<br></br>
-**User Story:**
-
-**Acceptance Criteria:**
-
-**Tasks:**
+- Add multiple links to the resources section for finding support.
+- Add a sub-header to these links to make it clear and obvious.
+- Add a "Get Help" item to the navbar linked to the sub-header section.
 
 <br></br>
