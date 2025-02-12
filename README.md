@@ -2,6 +2,15 @@
 
 ## User Stories:
 
+Microsoft CoPilot was used to assist in the initial generation of the user stories, which were then refined to fully fit the project. A couple of the generated stories were irrelevant to the website brief regarding the user's goals and site owner's goals so these were removed and new user stories were created in their place without the use of CoPilot. The user stories were then sorted into individual issues on a Kanban board using MOSCOW prioritisation. 
+
+![user-stories-co-pilot-initial-prompt](https://github.com/user-attachments/assets/afe8a588-880d-4c66-8512-3fe6668ca333)
+![user-stories-co-pilot-output-1](https://github.com/user-attachments/assets/f1ef6cda-6681-4c7e-81a7-6fa5b36efe8f)
+![user-stories-co-pilot-output-2](https://github.com/user-attachments/assets/1016c911-a4f4-42fb-88e7-aeb53c58d450)
+![user-stories-acceptance-criteria-co-pilot](https://github.com/user-attachments/assets/04b0fd78-7814-41bb-a9ba-b9deaea83e10)
+![user-stories-kanban-board](https://github.com/user-attachments/assets/09d1586a-6ca3-4974-81d6-bb5c6081318c)
+
+
 ### Must-Haves:
 <br></br>
 **User Story:**
